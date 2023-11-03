@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, Verdana, sans-serif;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+}
+
+.header {
+    font-family: Rubik;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2em;
+}
+
+.header h1 {
+    font-weight: 400;
+    color:palevioletred;
+}
+
+.products {
+    width: 80%;
+    margin: auto;
+}
+.products th {
+    font-size: 1.5em;
+    background-color: palevioletred;
+    color: #fff;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+.products th:first-child {
+    visibility: hidden;
+}
+.products td {
+    width: 50%;
+    padding: 2em;
+}
+.products td:first-child {
+    width: 50%;
+}
+.products td:nth-child(2) {
+    width: 25%;
+}
+.products td:last-child {
+    width: 25%;
+    text-align: center;
+}
+.products td b {
+    font-size: 1.5em;
+    color:palevioletred;
+}
+.products img {
+    width: 75%;
+    border: solid 1px palevioletred;
+    border-radius: 1em;
+}
+
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1em;
+}
+.footer a:hover {
+    color: #333;
+}
+.footer a {
+    color: #fff;
+}
